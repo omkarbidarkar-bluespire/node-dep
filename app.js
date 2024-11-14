@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-
+const chai = "omkar"
 app.get('/chai', (req,res) => {
     console.log('chai is ready !');
     res.send(chai);
